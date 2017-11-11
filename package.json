@@ -1,0 +1,22 @@
+{
+  "name": "chat",
+  "version": "0.0.1",
+  "description": "nodeJS-Chat-by-Smitha-Milli",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MynorXico/nodeJS-Chat-by-Smitha-Milli.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MynorXico/nodeJS-Chat-by-Smitha-Milli/issues"
+  },
+  "homepage": "https://github.com/MynorXico/nodeJS-Chat-by-Smitha-Milli#readme",
+  "dependencies": {
+    "mongoose": "^4.13.1"
+  }
+}

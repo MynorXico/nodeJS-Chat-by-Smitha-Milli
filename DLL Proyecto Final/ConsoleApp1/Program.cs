@@ -10,10 +10,14 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
+            
             RLE r = new RLE();
-            string output = r.Decipher(r.Cipher("Eestaaa eesss uuuna pruueba"));
+            string output = (r.CaesarCipher("Eestaaa eesss uuuna pruueba", "password"));
             Console.WriteLine(output);
             Console.ReadKey();
+            
+            //Console.WriteLine(((char)250).ToString());
+
         }
     }
 }

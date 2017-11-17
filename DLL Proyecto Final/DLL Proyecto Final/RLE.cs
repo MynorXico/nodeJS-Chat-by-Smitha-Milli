@@ -15,6 +15,7 @@ namespace DLL_Proyecto_Final
         }
         public string Cipher(string s)
         {
+
             char current = s[0];
             int currentCounter = 0;
             List<Register> Registers = new List<Register>();
@@ -81,13 +82,51 @@ namespace DLL_Proyecto_Final
             return sb.ToString();
         }
 
+        public string CaesarCipher(string s, string password)
+        {
+
+            char[] movingChar = password.ToCharArray();
+            int[] movingP = new int[movingChar.Length];
+            for(int i = 0; i < movingP.Length; i++)
+            {
+                movingP[i] = (int)movingChar[i];
+            }
+
+            StringBuilder sb = new StringBuilder();
+            for(int i = 0; i < s.Length; i++)
+            {
+                int moving = movingP[i % password.Length];
+                sb.Append((char)((int)s[i] + moving));
+            }
+            
+            return sb.ToString();
+        }
+        public string CaesarDecipher(string s, string password)
+        {
+            char[] movingChar = password.ToCharArray();
+            int[] movingP = new int[movingChar.Length];
+            for (int i = 0; i < movingP.Length; i++)
+            {
+                movingP[i] = (int)movingChar[i];
+            }
+
+            StringBuilder sb = new StringBuilder();
+            for (int i = 0; i < s.Length; i++)
+            {
+                int moving = movingP[i % password.Length];
+                sb.Append((char)((int)s[i] - moving));
+            }
+
+            return sb.ToString();
+        }
+
         public async Task<object> CipherD(object input)
         {
-            return Cipher(input.ToString()).ToString();
+            return CaesarCipher(input.ToString(), "supersecretpassword").ToString();
         }
         public async Task<object> DecipherD(object input)
         {
-            return Decipher(input.ToString()).ToString();
+            return CaesarDecipher(input.ToString(), "supersecretpassword").ToString();
         }
     }
 }

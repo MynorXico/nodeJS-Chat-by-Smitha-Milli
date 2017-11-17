@@ -1,0 +1,9 @@
+C:\Users\Maynor\source\repos\DLL Proyecto Final\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+C:\Users\Maynor\source\repos\DLL Proyecto Final\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+C:\Users\Maynor\source\repos\DLL Proyecto Final\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+C:\Users\Maynor\source\repos\DLL Proyecto Final\ConsoleApp1\bin\Debug\DLL Proyecto Final.dll
+C:\Users\Maynor\source\repos\DLL Proyecto Final\ConsoleApp1\bin\Debug\DLL Proyecto Final.pdb
+C:\Users\Maynor\source\repos\DLL Proyecto Final\ConsoleApp1\obj\Debug\ConsoleApp1.csprojResolveAssemblyReference.cache
+C:\Users\Maynor\source\repos\DLL Proyecto Final\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CoreCompileInputs.cache
+C:\Users\Maynor\source\repos\DLL Proyecto Final\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+C:\Users\Maynor\source\repos\DLL Proyecto Final\ConsoleApp1\obj\Debug\ConsoleApp1.pdb

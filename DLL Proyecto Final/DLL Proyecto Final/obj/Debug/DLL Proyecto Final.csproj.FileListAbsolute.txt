@@ -1,0 +1,6 @@
+C:\Users\Maynor\source\repos\DLL Proyecto Final\DLL Proyecto Final\bin\Debug\DLL Proyecto Final.dll
+C:\Users\Maynor\source\repos\DLL Proyecto Final\DLL Proyecto Final\bin\Debug\DLL Proyecto Final.pdb
+C:\Users\Maynor\source\repos\DLL Proyecto Final\DLL Proyecto Final\obj\Debug\DLL Proyecto Final.csprojResolveAssemblyReference.cache
+C:\Users\Maynor\source\repos\DLL Proyecto Final\DLL Proyecto Final\obj\Debug\DLL Proyecto Final.csproj.CoreCompileInputs.cache
+C:\Users\Maynor\source\repos\DLL Proyecto Final\DLL Proyecto Final\obj\Debug\DLL Proyecto Final.dll
+C:\Users\Maynor\source\repos\DLL Proyecto Final\DLL Proyecto Final\obj\Debug\DLL Proyecto Final.pdb
